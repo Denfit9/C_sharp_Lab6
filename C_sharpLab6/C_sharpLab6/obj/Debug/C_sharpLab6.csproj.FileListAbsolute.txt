@@ -1,0 +1,7 @@
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\bin\Debug\C_sharpLab6.exe.config
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\bin\Debug\C_sharpLab6.exe
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\bin\Debug\C_sharpLab6.pdb
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\obj\Debug\C_sharpLab6.csprojAssemblyReference.cache
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\obj\Debug\C_sharpLab6.csproj.CoreCompileInputs.cache
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\obj\Debug\C_sharpLab6.exe
+C:\Users\d0306\Documents\c#\Lab6\C_sharpLab6\C_sharpLab6\obj\Debug\C_sharpLab6.pdb
