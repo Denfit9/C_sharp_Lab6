@@ -32,7 +32,7 @@ namespace lab3task1
             int year = 2021;
             int lifetime = 0;
             lifetime = year - age;
-                Console.WriteLine("He is was born around " + lifetime );
+                Console.WriteLine("He was born around " + lifetime );
             
         }
         protected string name;
