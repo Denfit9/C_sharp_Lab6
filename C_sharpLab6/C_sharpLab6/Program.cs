@@ -29,7 +29,11 @@ namespace lab3task1
         }
         public void Living (int age)
         {
-            Console.WriteLine("He is almost an old man now");
+            int year = 2021;
+            int lifetime = 0;
+            lifetime = year - age;
+                Console.WriteLine("He is was born around " + lifetime );
+            
         }
         protected string name;
         protected string surname;
