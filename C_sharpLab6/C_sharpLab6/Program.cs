@@ -11,6 +11,7 @@ namespace lab3task1
         void Laugh();
         void Joke();
         void Punch();
+        void Living(int age);
     }
     class Human : IComparer<Human>,IAlive
     {
@@ -25,6 +26,10 @@ namespace lab3task1
         public void Punch()
         {
             Console.WriteLine("Ouch! Punched right in his face");
+        }
+        public void Living (int age)
+        {
+            Console.WriteLine("He is almost an old man now");
         }
         protected string name;
         protected string surname;
@@ -762,7 +767,7 @@ namespace lab3task1
                             while (close == false)
                             {
                                 Console.WriteLine("\nwhat to do? \n 1 - Show info \n 2 - change id \n 3 - change age\n 4 - change nickname\n 5 - Change his role in team\n 6 - change his K/D score \n 7 - kill \n" +
-                                    " 8 - laugh\n 9 - tell a joke\n p - punch\n c - close");
+                                    " 8 - laugh\n 9 - tell a joke\n a - check his age\n p - punch\n c - close");
                                 task = Console.ReadKey().KeyChar;
                                 switch (task)
                                 {
@@ -807,6 +812,10 @@ namespace lab3task1
                                         Console.Clear();
                                         cser.Punch();
                                         break;
+                                    case 'a':
+                                        Console.Clear();
+                                        cser.Living(cser.age);
+                                        break;
                                     case 'c':
                                         close = true;
                                         break;
@@ -824,7 +833,7 @@ namespace lab3task1
                             while (close == false)
                             {
                                 Console.WriteLine("\nwhat to do? \n 1 - Show info \n 2 - change id \n 3 - change age\n 4 - change nickname\n 5 - Change his role in team\n 6 - change his K/D score \n 7 - kill \n" +
-                                    " 8 - laugh\n 9 - tell a joke\n p - punch\n c - close");
+                                    " 8 - laugh\n 9 - tell a joke\n a - check his age\n p - punch\n c - close");
                                 task = Console.ReadKey().KeyChar;
                                 switch (task)
                                 {
@@ -865,6 +874,10 @@ namespace lab3task1
                                         Console.Clear();
                                         doter.Joke();
                                         break;
+                                    case 'a':
+                                        Console.Clear();
+                                        doter.Living(doter.age);
+                                        break;
                                     case 'p':
                                         Console.Clear();
                                         doter.Punch();
@@ -886,7 +899,7 @@ namespace lab3task1
                             while (close == false)
                             {
                                 Console.WriteLine("\nwhat to do? \n 1 - Show info \n 2 - change id \n 3 - change age\n 4 - change nickname\n 5 - Change his role in team\n 6 - change his K/D score \n 7 - kill \n" +
-                                     " 8 - laugh\n 9 - tell a joke\n p - punch\n c - close");
+                                     " 8 - laugh\n 9 - tell a joke\n a - check his age\n p - punch\n c - close");
                                 task = Console.ReadKey().KeyChar;
                                 switch (task)
                                 {
@@ -926,6 +939,10 @@ namespace lab3task1
                                     case '9':
                                         Console.Clear();
                                         val.Joke();
+                                        break;
+                                    case 'a':
+                                        Console.Clear();
+                                        val.Living(val.age);
                                         break;
                                     case 'p':
                                         Console.Clear();
